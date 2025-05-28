@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="right-side">
+                <img src="./img/logo-full.png" alt="logo" class="logo">
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="left-side">
+                <div class="contact-section">
+                    <button class="btn" style="background-color: #ED018C;">Контакты</button>
+                    <button class="btn" style="background-color: #00AEEF;">Оставить заявку</button>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Широкоформатная печать</a></li>
+                        <li><a href="#">Интерьерная реклама</a></li>
+                        <li><a href="#">Выставочные стенды</a></li>
+                        <li><a href="#">Наружная реклама</a></li>
+                        <li><a href="#">Услуги</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="introduction">
+            <div class="introduction__container container">
+                <div class="introduction__left">
+                    <h1 class="introduction__h1--desktop">Рекламно-производственные <br> услуги по всей Беларуси</h1>
+                    <h1 class="introduction__h1--mobile">Изготовление <br> наружной рекламы <br>по всей Беларуси</h1>
+                    <ul class="introduction__ul--desktop">
+                        <li>Широкоформатная печать </li>
+                        <li>Оформление выставочных павильонов </li>
+                        <li>Изготовление объемных букв </li>
+                        <li>Изготовление наружных световых коробов </li>
+                        <li>Интерьерное оформление </li>
+                    </ul>
+                    <ul class="introduction__ul--mobile">
+                        <li>Современное оборудование</li>
+                        <li>Выдающийся результат </li>
+                        <li>Профессиональная команда </li>
+                    </ul>
+                    <button class="btn" style="background-color: #00AEEF;margin-top: 45px;">Оставить заявку</button>
+
+                </div>
+                <div class="introduction__right">
+                    <img src="./img/intro-banner.png" alt="introduction banner" class="introduction__right--banner">
+                    <div class="yandex-feedback">
+                        <img src="./img/yandex-logo.png" alt="" class="logo">
+                        <img src="./img/fiveStars.png" alt="" class="stars">
+                        <p>Мы — одно из редких <br> агентств с безупречной <br> репутацией</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services__container container">
+                <div class="services__element element">
+                    <div class="element__left">
+                        <img src="./img/el-one.png" alt="">
+                    </div>
+                    <div class="element__right">
+                        <span>
+                            <p>Широкоформатная печать</p>
+                            <sub>От 9 руб./м</sub>
+                        </span>
+                        <button class="btn" style="background-color: #00AEEF;margin-top: 45px;">Узнать
+                            подробнее</button>
+
+                    </div>
+                </div>
+                <div class="services__element element">
+                    <div class="element__left">
+                        <img src="./img/el-sec.png" alt="">
+                    </div>
+                    <div class="element__right">
+                        <span>
+                            <p>Оформление выставочных павильонов</p>
+                            <sub>От 100 руб./м</sub>
+                        </span>
+                        <button class="btn" style="background-color: #00AEEF;margin-top: 45px;">Узнать
+                            подробнее</button>
+
+                    </div>
+                </div>
+                <div class="services__element element">
+                    <div class="element__left">
+                        <img src="./img/el-tri.png" alt="">
+                    </div>
+                    <div class="element__right">
+                        <span>
+                            <p>Интерьерное оформление</p>
+                            <sub>От 120 руб./м</sub>
+                        </span>
+                        <button class="btn" style="background-color: #00AEEF;margin-top: 45px;">Узнать
+                            подробнее</button>
+
+                    </div>
+                </div>
+                <div class="services__element element">
+                    <div class="element__left">
+                        <img src="./img/el-fou.png" alt="">
+                    </div>
+                    <div class="element__right">
+                        <span>
+                            <p>Наружная реклама</p>
+                            <sub>От 450 руб./м <br>
+                                Буквы от 4 руб./см высоты</sub>
+                        </span>
+                        <button class="btn" style="background-color: #00AEEF;margin-top: 45px;">Узнать
+                            подробнее</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutUs">
+            <div class="aboutUs__container container">
+                <div class="aboutUs__left">
+                    <button class="btn"
+                        style="background-color: transparent;border: 1px solid #231F20; border-radius: 50px;color: #231F20;">О
+                        нас</button>
+                    <h2>Ваш надёжный партнёр в мире печати</h2>
+                    <p><b>Мы — профессиональная компания с более чем 20-летним опытом <br> в производстве наружной
+                            рекламы
+                            и
+                            широкоформатной печати.</b> Специализируемся на создании вывесок, оформлении выставок,
+                        баннеров,
+                        интерьерной печати и других рекламных решений.
+                        <br><br>
+                        За годы работы мы реализовали свыше 10000 проектов, став надежным партнером для малого, среднего
+                        и крупного бизнеса. Наши клиенты ценят нас за качество, оперативность и индивидуальный подход.
+                        <br><br>
+
+                        Предлагаем <b>услуги «под ключ» — от разработки дизайна до печати и монтажа.</b> <br>
+                        Современное
+                        оборудование, качественные материалы и команда профессионалов позволяют нам воплощать любые идеи
+                        в жизнь.
+                        <br><br>
+
+                        <span> Доверьте нам свою рекламу — и мы сделаем её яркой, заметной и эффективной!</span>
+                    </p>
+                </div>
+                <div class="aboutUs__right">
+                    <img src="./img/img-banner.png" alt="banner">
+                </div>
+            </div>
+        </section>
+        <section class="aboutUs">
+            <div class="aboutUs__container container aboutUs__swiper">
+                <div class="aboutUs__right">
+                    <div class="swiper project-sw">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./img/slide-one.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/slide-one.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/slide-one.png" alt=""></div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev">
+                                <img src="./img/arrow-left.svg" alt="arrow">
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="./img/arrow-right.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn --mobile"
+                        style="background-color: #00AEEF;padding: 10px 30px;margin-top: 98px;">Оставить
+                        заявку</button>
+                </div>
+                <div class="aboutUs__left">
+                    <button class="btn"
+                        style="background-color: transparent;border: 1px solid #231F20; border-radius: 50px;color: #231F20;">О
+                        Выполненные проекты</button>
+                    <h2>Вывеска для Атлант-м</h2>
+                    <p>Изготовление и установка фасадной вывески в корпоративном стиле.
+                    </p>
+                    <button class="btn --desktop"
+                        style="background-color: #00AEEF;padding: 10px 30px;margin-top: 98px;">Оставить
+                        заявку</button>
+
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="feedback__container container">
+                <div class="section-intro">
+                    <button class="btn"
+                        style="background-color: transparent;border: 1px solid #231F20; border-radius: 50px;color: #231F20;">Отзывы</button>
+                    <h2>Нашу компанию ценят за качество,<br>низкие цены и сервис</h2>
+                </div>
+
+                <div class="feedback__wrapper">
+                    <div class="feedback__left">
+                        <div class="feedback__block">
+                            <h2>Принтера</h2>
+                            <img src="./img/yandex-map-logopng.png" alt="yandex-map">
+                        </div>
+                        <div class="feedback__valuation">
+                            <p>5,0</p>
+                            <div class="valuation">
+                                <div class="valuation__stars">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                </div>
+                                <p>xxx отзывов • xxx оценки</p>
+                            </div>
+                        </div>
+                        <div class="feedback__post-response">
+                            <p>Поставьте нам оценку</p>
+                            <button class="btn" style="background-color: #00AEEF;">Оставить заявку</button>
+
+                        </div>
+                        <div class="feedback__users-reviews">
+                            <div class="feedback__item item">
+                                <div class="item__info">
+                                    <div class="item__logo"><img src="#" alt="фото"></div>
+                                    <div class="item__box">
+                                        <p>Имя пользователя</p>
+                                        <sub>3 апреля 2024</sub>
+                                    </div>
+                                </div>
+                                <div class="item__stars">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                </div>
+                                <p>Отзыв Lorem ipsum dolor sit amet. Ut sapiente omnis et magni saepe aut praesentium
+                                    officia aut rerum sequi nam quibusdam ipsa eum optio nihil! Et adipisci internos est
+                                    sunt sint quo assumenda dolorem.</p>
+                            </div>
+                            <div class="feedback__hr"></div>
+                            <div class="feedback__item item">
+                                <div class="item__info">
+                                    <div class="item__logo"><img src="#" alt="фото"></div>
+                                    <div class="item__box">
+                                        <p>Имя пользователя</p>
+                                        <sub>3 апреля 2024</sub>
+                                    </div>
+                                </div>
+                                <div class="item__stars">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                    <img src="./img/star.svg" alt="star">
+                                </div>
+                                <p>Отзыв Lorem ipsum dolor sit amet. Ut sapiente omnis et magni saepe aut praesentium
+                                    officia aut rerum sequi nam quibusdam ipsa eum optio nihil! Et adipisci internos est
+                                    sunt sint quo assumenda dolorem.</p>
+
+                            </div>
+                            <center>
+                                <button class="btn"
+                                    style="background-color: #00AEEF;padding: 10px 30px; margin: 40px auto 0;max-width: none;">Больше
+                                    отзывов на Яндекс Картах</button>
+                            </center>
+
+                        </div>
+                    </div>
+                    <div class="feedback__right">
+                        <img src="./img/black-iphone-with-white-back-that-says-iphone-back.png" alt="iphone">
+                        <div class="yandex-feedback">
+                            <img src="./img/yandex-logo.png" alt="" class="logo">
+                            <img src="./img/fiveStars.png" alt="" class="stars">
+                            <p>Мы — одно из редких <br> агентств с безупречной <br> репутацией</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="clients__container container">
+                <div class="section-intro">
+                    <h2>Наши клиенты</h2>
+                </div>
+                <div class="swiper-clients swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/client-one.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-two.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-tri.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-fou.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-fae.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-six.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-sev.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-eht.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-nin.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-ten.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-ell.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/client-tww.png" alt=""></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="questions__container container">
+                <div class="section-intro">
+                    <button class="btn"
+                        style="background-color: transparent;border: 1px solid #231F20; border-radius: 50px;color: #231F20;max-width: none;">Полезная
+                        информация</button>
+                    <h2>Часто задаваемые вопросы</h2>
+                </div>
+                <div class="questions__wrapper">
+                    <div class="questions__left frequestions">
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Сколько времени занимает производство заказа?</p> <img src="./img/arrow-down.svg"
+                                    alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Делаете ли вы дизайн или нужно предоставить готовый макет?</p> <img
+                                    src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Как происходит оплата?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Вы занимаетесь монтажом?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Какая у вас гарантия на продукцию?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Можно ли сделать срочный заказ?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Как оформить заказ?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Работаете ли вы в других городах?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Какие у вас цены на печать?</p> <img src="./img/arrow-down.svg" alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                        <div class="frequestions__el">
+                            <div class="frequestions__el-ques">
+                                <p>Есть ли у вас готовые решения для стартапов?</p> <img src="./img/arrow-down.svg"
+                                    alt="arrow">
+                            </div>
+                            <div class="frequestions__el-answer">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Natus, cupiditate consequatur delectus voluptates porro exercitationem laborum
+                                harum qui sunt commodi?</div>
+                        </div>
+                    </div>
+                    <div class="questions__right contact-form">
+                        <h2>Остались вопросы?</h2>
+                        <p>Наш специалист свяжется с вами в ближайшее время, чтобы обсудить детали</p>
+
+                        <div class="contact-form__inputs">
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="tel" name="tel" placeholder="Телефон">
+                            <div class="to-contact">
+                                <p>Где связаться</p>
+                                <div class="to-contact__imgs">
+                                    <img src="./img/telegram.png" alt="telegram">
+                                    <img src="./img/whatsUp.png" alt="whatsUp">
+                                </div>
+
+
+                            </div>
+                            <button class="btn" style="background-color: #00AEEF; max-width: none;">Оставить заявку</button>
+                        </div>
+                            <sub>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</sub>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="announcement">
+            <div class="announcement__container container">
+                <h2>Подписывайтесь на нас в социальных сетях — следите<br> за новостями, проектами и вдохновением!</h2>
+                <div class="announcement__imgs">
+                    <img src="./img/instagram.png" alt="instagram">
+                    <img src="./img/teleg-pink.png" alt="telegram">
+                </div>
+            </div>
+        </div>
+        <section class="ofrep">
+            <div class="ofrep__container container">
+                <div class="ofrep__left">
+                    <div class="ofrep__contact contact-form">
+                        <h2>Расскажите нам о своём <br>проекте – и мы подберём <br>лучшее решение</h2>
+                      
+
+                        <div class="contact-form__inputs">
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="tel" name="tel" placeholder="Телефон">
+                            <div class="to-contact">
+                                <p>Где связаться</p>
+                                <div class="to-contact__imgs">
+                                    <img src="./img/telegram.png" alt="telegram">
+                                    <img src="./img/whatsUp.png" alt="whatsUp">
+                                </div>
+
+
+                            </div>
+                            <button class="btn" style="background-color: #00AEEF;max-width: none;">Оставить заявку</button>
+                        </div>
+                            <sub>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</sub>
+
+                    </div>
+                </div>
+                <div class="ofrep__right">
+                    <img src="./img/bottom-banner.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="burger-modal">
+
+        <div class="burger-modal__close">X</div>
+        <nav class="burger-modal__menu">
+            <ul>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Широкоформатная печать</a></li>
+                <li><a href="#">Интерьерная реклама</a></li>
+                <li><a href="#">Выставочные стенды</a></li>
+                <li><a href="#">Наружная реклама</a></li>
+                <li><a href="#">Услуги</a></li>
+            </ul>
+        </nav>
+        <div class="burger-modal__contact-section">
+            <button class="btn" style="background-color: #ED018C;">Контакты</button>
+            <button class="btn" style="background-color: #00AEEF; ">Оставить заявку</button>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
