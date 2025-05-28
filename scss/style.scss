@@ -872,6 +872,7 @@ header .logo {
 
 .ofrep {
     position: relative;
+
     &__container {
         display: flex;
         justify-content: space-between;
@@ -888,7 +889,7 @@ header .logo {
     }
 
     &__right {
-        img{
+        img {
             position: absolute;
             right: 0;
             top: 0;
@@ -898,7 +899,7 @@ header .logo {
     &__contact {}
 
     .contact-form {
-            max-width: 375px;
+        max-width: 375px;
 
         h2 {
             font-family: Manrope;
@@ -917,6 +918,38 @@ header .logo {
     &__imgs {}
 }
 
-.btn {}
+.navigation {
+    &__container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-family: Manrope;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #1A47AF;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        p {
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #231F20;
+        }
+    }
+}
 
 @import "./media"

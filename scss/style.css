@@ -730,6 +730,35 @@ header .logo {
   margin-bottom: 60px;
 }
 
+.navigation__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__container h1 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1A47AF;
+}
+.navigation__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.navigation__menu p {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #231F20;
+}
+
 @media (max-width: 1144px) {
   .menu ul {
     gap: 16px;
