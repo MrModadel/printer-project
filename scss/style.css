@@ -839,6 +839,7 @@ header .logo {
   .questions__right {
     width: 100%;
     margin-top: 65px;
+    padding: 20px;
   }
   .section-intro {
     align-items: start;
