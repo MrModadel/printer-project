@@ -691,6 +691,13 @@ header .logo {
   text-align: center;
   color: #1A47AF;
 }
+.announcement__imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
 .ofrep {
   position: relative;
 }
@@ -780,11 +787,25 @@ header .logo {
   }
 }
 @media (max-width: 768px) {
+  .announcement__container {
+    padding: 20px !important;
+    justify-content: start;
+    align-items: start;
+  }
+  .announcement h2 {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: start;
+  }
   .ofrep__left {
     max-width: none;
     width: 100%;
     z-index: 1;
     padding: 0 0 10px 0;
+    margin-right: 0;
   }
   .ofrep__left h2 {
     color: #FFFFFF !important;
