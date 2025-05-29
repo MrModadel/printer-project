@@ -25,7 +25,7 @@ ul {
 .btn {
   padding: 10px 29.3px;
   border-radius: 16px;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 100%;
@@ -47,7 +47,7 @@ ul {
 }
 
 header .logo {
-  max-width: 215.4247741699px;
+  max-width: 215.42px;
 }
 
 .contact-section {
@@ -63,7 +63,7 @@ header .logo {
 }
 
 .menu ul li a {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -111,7 +111,7 @@ header .logo {
   z-index: 999999999;
 }
 .burger-modal__close {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #0B0E1E;
@@ -137,7 +137,7 @@ header .logo {
   gap: 13px;
 }
 .burger-modal__menu ul li a {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -158,7 +158,7 @@ header .logo {
   list-style-type: disc;
 }
 .introduction__ul--desktop li {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -174,19 +174,19 @@ header .logo {
   list-style-type: disc;
 }
 .introduction__ul--mobile li {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #ffffff;
+  color: #fff;
 }
 .introduction__ul--mobile li:not(:first-child) {
   margin-top: 8px;
 }
 .introduction__h1--desktop {
   margin-top: 140px;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 44px;
   line-height: 56px;
@@ -196,12 +196,12 @@ header .logo {
 .introduction__h1--mobile {
   display: none;
   margin-top: 66px;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0%;
-  color: #ffffff;
+  color: #fff;
 }
 .introduction__left {
   z-index: 1;
@@ -250,7 +250,7 @@ header .logo {
   justify-content: space-between;
 }
 .element__right p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 100%;
@@ -259,7 +259,7 @@ header .logo {
   margin-bottom: 21.5px;
 }
 .element__right sub {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -274,7 +274,7 @@ header .logo {
   gap: 20px;
 }
 .aboutUs__left h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -284,19 +284,18 @@ header .logo {
 }
 .aboutUs__left p {
   margin-top: 20px;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 100%;
   line-height: 1.4;
   color: #231F20;
 }
 .aboutUs__left p span {
   color: #ED018C;
-  font-weight: 600;
+  font-weight: 700;
 }
 .aboutUs__left p b {
-  font-weight: 600;
+  font-weight: 700;
 }
 .aboutUs__right {
   width: 130%;
@@ -339,7 +338,7 @@ header .logo {
   max-width: 98px;
 }
 .yandex-feedback p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -371,7 +370,7 @@ header .logo {
   align-items: center;
 }
 .section-intro h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 32px;
   text-align: center;
@@ -402,7 +401,7 @@ header .logo {
   justify-content: space-between;
 }
 .feedback__block h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 100%;
@@ -417,7 +416,7 @@ header .logo {
   margin-top: 30px;
 }
 .feedback__valuation p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 46px;
   line-height: 100%;
@@ -442,12 +441,12 @@ header .logo {
   align-items: center;
   gap: 16px;
   padding: 20px 50px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 18px;
   margin-top: 30px;
 }
 .feedback__post-response p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -455,7 +454,7 @@ header .logo {
   color: #231F20;
 }
 .feedback__hr {
-  border: 3px solid #FFFFFF;
+  border: 3px solid #fff;
   margin: 30px 0;
 }
 
@@ -469,7 +468,7 @@ header .logo {
   gap: 4px;
 }
 .valuation p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -489,13 +488,12 @@ header .logo {
   margin-top: 30px;
 }
 .item p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1.1;
   letter-spacing: 0%;
   color: #231F20;
-  line-height: 1.1;
   margin-top: 8px;
 }
 .item__info {
@@ -505,7 +503,7 @@ header .logo {
 }
 .item__logo {
   background-color: #D9D9D9;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 47px;
   height: 47px;
   overflow: hidden;
@@ -520,7 +518,7 @@ header .logo {
   gap: 1px;
 }
 .item__box p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -528,7 +526,7 @@ header .logo {
   color: #231F20;
 }
 .item__box sub {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -540,7 +538,7 @@ header .logo {
 }
 
 .swiper-clients .swiper-slide {
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
   max-width: 275px;
   height: 150px;
@@ -571,7 +569,7 @@ header .logo {
 }
 
 .contact-form sub {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 100%;
@@ -579,7 +577,7 @@ header .logo {
   color: #0B0E1E;
 }
 .contact-form h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 100%;
@@ -588,7 +586,7 @@ header .logo {
   margin-bottom: 20px;
 }
 .contact-form p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -608,11 +606,11 @@ header .logo {
   padding-bottom: 10px;
   padding-left: 20px;
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
-  background: #FFFFFF;
+  background: #fff;
   border: none;
   outline: none;
   width: 100%;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -630,7 +628,7 @@ header .logo {
   padding-bottom: 4px;
   padding-left: 20px;
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
-  background: #FFFFFF;
+  background: #fff;
   border: none;
   outline: none;
   width: 100%;
@@ -641,6 +639,7 @@ header .logo {
   font-size: 16px;
   color: #231F20;
 }
+
 .frequestions__el {
   padding: 10px 20px;
   background-color: #F1F6FF;
@@ -653,7 +652,7 @@ header .logo {
   align-items: center;
 }
 .frequestions__el-ques p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -663,7 +662,7 @@ header .logo {
 .frequestions__el-answer {
   display: none;
   margin-top: 10px;
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -683,7 +682,7 @@ header .logo {
   gap: 20px;
 }
 .announcement h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -722,7 +721,7 @@ header .logo {
   max-width: 375px;
 }
 .ofrep .contact-form h2 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 44px;
   line-height: 56px;
@@ -737,7 +736,7 @@ header .logo {
   align-items: center;
 }
 .navigation__container h1 {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -751,7 +750,7 @@ header .logo {
   gap: 15px;
 }
 .navigation__menu p {
-  font-family: Manrope;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
